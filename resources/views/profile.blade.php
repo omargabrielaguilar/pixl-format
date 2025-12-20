@@ -158,7 +158,7 @@
       <!-- Feed item -->
       <li class="flex items-start gap-4 not-first:pt-2.5">
         <a href="/profile" class="shrink-0">
-          <img src="/images/michael.png" alt="Avatar for Michael" class="size-10 object-cover" />
+          <img src="/images/Amanda.png" alt="Avatar for Amanda" class="size-10 object-cover" />
         </a>
         <div class="grow pt-1.5">
           <div class="border-pixl-light/10 border-b pb-5">
@@ -166,7 +166,7 @@
             <div class="flex items-center justify-between gap-4">
               <div class="flex items-center gap-2.5">
                 <p>
-                  <a class="hover:underline" href="/profile">Michael</a>
+                  <a class="hover:underline" href="/profile">Amanda</a>
                 </p>
                 <p class="text-pixl-light/40 text-xs">3h</p>
                 <p>
@@ -332,7 +332,7 @@
               <form class="grow" action="">
                 <label class="sr-only" for="reply">Reply body</label>
                 <textarea class="w-full resize-none text-sm" rows="5" name="reply" id="reply"
-                  placeholder="Reply to Michael's post"></textarea>
+                  placeholder="Reply to Amanda's post"></textarea>
                 <div class="flex items-center justify-between gap-4">
                   <div class="flex gap-4">
                     <button type="button">
@@ -616,8 +616,8 @@
       <ol class="mt-4 flex flex-col gap-4">
         <li class="flex items-center justify-between gap-4">
           <div class="flex items-center gap-2.5">
-            <img src="/images/alessia.png" alt="Avatar of Alessia" class="size-8 object-cover" />
-            <p class="truncate text-sm">alessia_draws</p>
+            <img src="/images/kdot.png" alt="Avatar of kdot" class="size-8 object-cover" />
+            <p class="truncate text-sm">kdot_draws</p>
           </div>
           <button
             class="bg-pixl-dark/50 hover:bg-pixl-dark/60 active:bg-pixl-dark/75 border-pixl/50 hover:border-pixl/60 active:border-pixl/75 text-pixl border px-2 py-1 text-sm">
@@ -646,8 +646,8 @@
         </li>
         <li class="flex items-center justify-between gap-4">
           <div class="flex items-center gap-2.5">
-            <img src="/images/michael.png" alt="Avatar of Michael" class="size-8 object-cover" />
-            <p class="truncate text-sm">Michael</p>
+            <img src="/images/Amanda.png" alt="Avatar of Amanda" class="size-8 object-cover" />
+            <p class="truncate text-sm">Amanda</p>
           </div>
           <button
             class="bg-pixl-dark/50 hover:bg-pixl-dark/60 active:bg-pixl-dark/75 border-pixl/50 hover:border-pixl/60 active:border-pixl/75 text-pixl border px-2 py-1 text-sm">
