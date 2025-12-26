@@ -45,21 +45,34 @@
         <li><a class="hover:underline" href="#">Profile</a></li>
         <li><a class="hover:underline" href="#">More</a></li>
       </ul>
+
+      @isset($showPostButton)
+      <div class="flex flex-col gap-6">
+        <button
+          class="bg-pixl hover:bg-pixl/90 active:bg-pixl/95 text-pixl-dark border border-transparent px-4 py-3 text-sm">
+          Post
+        </button>
+        @endisset
+
+        <!-- User controls -->
+        <div class="flex gap-3.5">
+          <a href="/profile" class="shrink-0">
+            <img src="/images/adrian.png" alt="Avatar for Adrian" class="size-11 object-cover" />
+          </a>
+          <div class="flex flex-col gap-1 text-sm">
+            <p>_adrian</p>
+            <p class="text-pixl-light/60">@tudssss</p>
+          </div>
+          <button class="group flex gap-[3px] py-2" aria-label="Post options">
+            <span class="bg-pixl-light/40 group-hover:bg-pixl-light/60 size-1"></span>
+            <span class="bg-pixl-light/40 group-hover:bg-pixl-light/60 size-1"></span>
+            <span class="bg-pixl-light/40 group-hover:bg-pixl-light/60 size-1"></span>
+          </button>
+        </div>
+        @isset($showPostButton)
+      </div>
+      @endisset
     </nav>
   </div>
-  <!-- User controls -->
-  <div class="flex gap-3.5">
-    <a href="/profile" class="shrink-0">
-      <img src="/images/adrian.png" alt="Avatar for Adrian" class="size-11 object-cover" />
-    </a>
-    <div class="flex flex-col gap-1 text-sm">
-      <p>_adrian</p>
-      <p class="text-pixl-light/60">@tudssss</p>
-    </div>
-    <button class="group flex gap-0.75 py-2" aria-label="Post options">
-      <span class="bg-pixl-light/40 group-hover:bg-pixl-light/60 size-1"></span>
-      <span class="bg-pixl-light/40 group-hover:bg-pixl-light/60 size-1"></span>
-      <span class="bg-pixl-light/40 group-hover:bg-pixl-light/60 size-1"></span>
-    </button>
-  </div>
+
 </header>
